@@ -1,0 +1,137 @@
+<div class="front-end-layout">
+    <div class="main-sec inner-page">
+        <!-- //header -->
+        <header class="py-sm-3 pt-3 pb-2" id="home">
+            <div class="container">
+                <!-- nav -->
+                <div class="top-w3pvt d-flex">
+                    <div id="logo">
+                        <h1> <a routerLink="/home"><span class="log-w3pvt">B</span>aggage</a> <label
+                                class="sub-des">Online Store</label></h1>
+                    </div>
+
+
+                </div>
+                <div class="nav-top-wthree">
+                    <nav>
+                        <label for="drop" class="toggle"><span class="fa fa-bars"></span></label>
+                        <input type="checkbox" id="drop" />
+                        <ul class="menu">
+                            <li><a routerLink="/home">Home</a></li>
+                            <li><a routerLink="/manager">Product Manager</a></li>
+                            <li><a routerLink="/about">About Us</a></li>
+
+                            <li><a routerLink="/contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <!-- //nav -->
+
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </header>
+
+    </div>
+
+    <div class="container">
+        <div class="jumbotron" style="margin-top: 2rem;">
+
+
+                <h5 style="text-align: center; margin-bottom: 2rem;padding-top: 2rem;">Danh sách sản phẩm</h5>
+                <div class="content" style="margin-left: 20rem;">
+                <img style="width: 450x; height: 450px;" src="{{product.img}}" alt="">
+                <p class="card-text">
+                    Product Name: {{product.name}}
+                </p>
+                <p class="card-text">
+
+                    Price: ${{product.price}}
+                </p>
+                <p class="card-text">
+                    Description: {{product.desc}}
+                </p>
+                <p class="card-text">
+                    Status: {{product.status? 'Còn hàng':'Hết hàng'}}
+                </p>
+                <button class="btn btn-primary" routerLink="/manager" style="margin-right:1rem ;">Back to Manager</button>
+                <button class="btn btn-primary" routerLink="/product"  style="margin-right:1rem ;">Back to Product</button>
+        </div>
+    </div>
+    </div>
+    <section class="shipping-wthree">
+        <div class="shiopping-grids d-lg-flex">
+            <div class="col-lg-4 shiopping-w3pvt-gd text-center">
+                <div class="icon-gd"><span class="fa fa-truck" aria-hidden="true"></span>
+                </div>
+                <div class="icon-gd-info">
+                    <h3>FREE SHIPPING</h3>
+                    <p>On all order over $2000</p>
+                </div>
+            </div>
+            <div class="col-lg-4 shiopping-w3pvt-gd sec text-center">
+                <div class="icon-gd"><span class="fa fa-bullhorn" aria-hidden="true"></span></div>
+                <div class="icon-gd-info">
+                    <h3>FREE RETURN</h3>
+                    <p>On 1st exchange in 30 days</p>
+                </div>
+            </div>
+            <div class="col-lg-4 shiopping-w3pvt-gd text-center">
+                <div class="icon-gd"> <span class="fa fa-gift" aria-hidden="true"></span></div>
+                <div class="icon-gd-info">
+                    <h3>MEMBER DISCOUNT</h3>
+                    <p>Register &amp; save up to $29%</p>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-5">
+                    <h6>About</h6>
+                    <p class="text-justify">This is a simple website</p>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Categories</h6>
+                    <ul class="footer-links">
+                        <li><a routerLink="/home">Home</a></li>
+                        <li><a routerLink="/manager">Product Manager</a></li>
+                        <li><a routerLink="/about">About Us</a></li>
+
+                        <li><a routerLink="/contact">Contact</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Contact Info</h6>
+                    <p class="text-justify">
+                        Phone : 0123456789
+                    </p>
+                    <p class="text-justify">Email : <a
+                            href="mailto:quocnvph08789@fpt.edu.vn">quocnvph08789@fpt.edu.vn</a></p>
+                    <p class="text-justify">Address: Khu đơn nguyên 5, kí túc xá Mỹ Đình 2, Nam Từ Liêm, Hà Nội</p>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">Edit by quocnvph08789
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <ul class="social-icons">
+                        <li><a class="facebook" href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a class="linkedin" href="#"><i class="fab fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>

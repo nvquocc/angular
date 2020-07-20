@@ -1,0 +1,153 @@
+<div class="front-end-layout">
+    <div class="main-sec inner-page">
+        <header class="py-sm-3 pt-3 pb-2" id="home">
+            <div class="container">
+                <div class="top-w3pvt d-flex">
+                    <div id="logo">
+                        <h1> <a routerLink="/home"><span class="log-w3pvt">B</span>aggage</a> <label
+                                class="sub-des">Online Store</label></h1>
+                    </div>
+                </div>
+                <div class="nav-top-wthree">
+                    <nav>
+
+                        <ul class="menu">
+                            <li><a routerLink="/home">Home</a></li>
+                            <li><a routerLink="/manager">Product Manager</a></li>
+                            <li><a routerLink="/about">About Us</a></li>
+
+                            <li><a routerLink="/contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+    </div>
+
+
+    <h2 style="text-align: center; margin-top: 1rem;">Manager</h2>
+    <div class="bt-content" style="margin-left: 100rem;">
+        <button class="btn btn-secondary btn-sm" style="margin-top: 1rem; margin-right: 1rem;" routerLink="/home">Back
+            to
+            Home</button>
+        <button class="btn btn-primary btn-sm" style="margin-top: 1rem; margin-right: 1rem;"
+            routerLink="/product/add">Add Product</button>
+    </div>
+    <div class="jumbotron">
+        <div class="container-fluid">
+            <table class="table table-bordered" style="margin-top: 1rem; width: 100%;">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Product Name</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">Image</th>
+                        <th scope="col">Description</th>
+                        <th scope="col">Status</th>
+                        <th scope="col">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let product of products ">
+                        <th scope="row">{{product.id}}</th>
+                        <th scope="row">{{product.name}}</th>
+                        <th scope="row">${{product.price}}</th>
+                        <th scope="row"><img class="card-img-top" style="width: 8rem; height: 8rem;"
+                                    src="{{product.img}}"></th>
+                        <th scope="row">{{product.desc}}</th>
+                        <th scope="row">{{product.status? 'Còn hàng':'Hết hàng'}}</th>
+                        <th>
+                            <button class="btn btn-success btn-sm " style="margin-right: 1rem;"
+                                routerLink="/product/{{product.id}}">Chi tiết</button>
+                            <button class="btn btn-info btn-sm " style="margin-right: 1rem;"
+                                routerLink="/product/edit/{{product.id}}">Update</button>
+                            <button class="btn btn-danger btn-sm" style="margin-right: 1rem;"
+                                (click)="removeItem(product.id)">Delete</button>
+                        </th>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>  
+
+
+    <!--//newsletter -->
+    <!--/shipping-->
+    <section class="shipping-wthree" style="margin-top: 1rem;">
+        <div class="shiopping-grids d-lg-flex">
+            <div class="col-lg-4 shiopping-w3pvt-gd text-center">
+                <div class="icon-gd"><span class="fa fa-truck" aria-hidden="true"></span>
+                </div>
+                <div class="icon-gd-info">
+                    <h3>FREE SHIPPING</h3>
+                    <p>On all order over $2000</p>
+                </div>
+            </div>
+            <div class="col-lg-4 shiopping-w3pvt-gd sec text-center">
+                <div class="icon-gd"><span class="fa fa-bullhorn" aria-hidden="true"></span></div>
+                <div class="icon-gd-info">
+                    <h3>FREE RETURN</h3>
+                    <p>On 1st exchange in 30 days</p>
+                </div>
+            </div>
+            <div class="col-lg-4 shiopping-w3pvt-gd text-center">
+                <div class="icon-gd"> <span class="fa fa-gift" aria-hidden="true"></span></div>
+                <div class="icon-gd-info">
+                    <h3>MEMBER DISCOUNT</h3>
+                    <p>Register &amp; save up to $29%</p>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-5">
+                    <h6>About</h6>
+                    <p class="text-justify">This is a simple website</p>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Categories</h6>
+                    <ul class="footer-links">
+                        <li><a routerLink="/home">Home</a></li>
+                        <li><a routerLink="/manager">Product Manager</a></li>
+                        <li><a routerLink="/about">About Us</a></li>
+
+                        <li><a routerLink="/contact">Contact</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Contact Info</h6>
+                    <p class="text-justify">
+                        Phone : 0123456789
+                    </p>
+                    <p class="text-justify">Email : <a
+                            href="mailto:quocnvph08789@fpt.edu.vn">quocnvph08789@fpt.edu.vn</a></p>
+                    <p class="text-justify">Address: Khu đơn nguyên 5, kí túc xá Mỹ Đình 2, Nam Từ Liêm, Hà Nội</p>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">Edit by quocnvph08789
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <ul class="social-icons">
+                        <li><a class="facebook" href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a class="linkedin" href="#"><i class="fab fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>

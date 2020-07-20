@@ -1,0 +1,34 @@
+<table class="table table-bordered">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Product Name</th>
+            <th scope="col">Price</th>
+            <th scope="col">Image</th>
+            <th scope="col">Description</th>
+            <th scope="col">Status</th>
+            <th scope="col">Action</th>
+        </tr>
+
+    </thead>
+    <tbody>
+        <tr *ngFor="let shop of shops ">
+            <th scope="row">{{shop.id}}</th>
+            <th scope="row">{{shop.name}}</th>
+            <th scope="row">${{shop.price}}</th>
+            <th scope="row"><a><img class="card-img-top" style="width: 8rem; height: 8rem;"
+                        src="{{shop.img}}"></a></th>
+            <th scope="row">{{shop.desc}}</th>
+            <th scope="row">{{shop.status? 'Còn hàng':'Hết hàng'}}</th>
+            <th>
+                <button class="btn btn-primary btn-sm " style="margin-right: 1rem;"
+                        routerLink="/admin/shop/{{shop.id}}">Chi tiết</button>
+                    <button class="btn btn-info btn-sm " style="margin-right: 1rem;"
+                        routerLink="/admin/shop/edit/{{shop.id}}">Update</button>
+                    <button class="btn btn-danger btn-sm" style="margin-right: 1rem;"
+                        (click)="removeItem(shop.id)">Delete</button>
+            </th>
+        </tr>
+
+    </tbody>
+</table>

@@ -1,0 +1,190 @@
+
+[
+    {
+        "id": "1",
+        "name":"Vsmart Bee 1 ",
+        "price":35,
+        "img":"https://cdn.tgdd.vn/Products/Images/42/207847/vsmart-bee-blue-400x460.png",
+        "desc":"Smartphone phổ thông - Made in Vietnam",
+        "status":true
+    },
+   
+    {
+        "id": "2",
+        "name":"Nokia C1",
+        "price":50,
+        "img":"https://cdn.fptshop.com.vn/Uploads/Originals/2020/1/9/637141658364496709_nokia-c1-1.png",
+        "desc":"Smartphone phổ thông Made by Nokia",
+        "status":false
+    },
+    {
+        "id": "3",
+        "name":"Xiaomi Redmi 7A",
+        "price":80,
+        "img":"https://cdn.tgdd.vn/Products/Images/42/168553/xiaomi-redmi-7a-blue-600x600.jpg",
+        "desc":"Smartphone giá rẻ Made in China",
+        "status":false
+    },
+    {
+        "id": "4",
+        "name":"Vsmart Joy 2+",
+        "price":110,
+        "img":"https://cdn.tgdd.vn/Products/Images/42/209555/vsmart-joy-2-plus-2gb-blue-600x600.jpg",
+        "desc":"Smartphone giá rẻ - Made in Vietnam",
+        "status":false
+    },
+    
+    {
+        "id": "5",
+        "name":"Realme C3i",
+        "price":130,
+        "img":"https://cdn.fptshop.com.vn/Uploads/Originals/2020/3/27/637209030835009270_realme-c3i-xanh-1.png",
+        "desc":"Smartphone giá rẻ Made in China",
+        "status":true
+    },
+    {
+        "id": "6",
+        "name":"Xiaomi Redmi Note 7",
+        "price":160,
+        "img":"https://cdn.tgdd.vn/Products/Images/42/167535/xiaomi-redmi-note-7-600x600.jpg",
+        "desc":"Smartphone tầm trung Made in China",
+        "status":false
+    },
+    {
+        "id": "7",
+        "name":"Samsung Galaxy A21",
+        "price":200,
+        "img":"https://cdn.tgdd.vn/Products/Images/42/209787/samsung-galaxy-a21-600x600-1.jpg",
+        "desc":"Smartphone tầm trung Made by Samsung",
+        "status":true
+    },
+    {
+        "id": "8",
+        "name":"Samsung Galaxy M21",
+        "price":220,
+        "img":"https://cdn.tgdd.vn/Products/Images/42/209792/samsung-galaxy-m21-600x600-1.jpg",
+        "desc":"Smartphone tầm trung Made by Samsung",
+        "status":false
+    },
+    {
+        "id": "9",
+        "name":"Samsung Galaxy A70 ",
+        "price":250,
+        "img":"https://cdn.tgdd.vn/Products/Images/42/195012/samsung-galaxy-a70-white-600x600.jpg",
+        "desc":"Smartphone tầm trung Made by Samsung",
+        "status":true
+    },
+    {
+        "id": "10",
+        "name":"Realme 6",
+        "price":300,
+        "img":"https://cdn.tgdd.vn/Products/Images/42/219895/realme-6-8gb-600x600-600x600.jpg",
+        "desc":"Smartphone tầm trung Made in China",
+        "status":false
+    },
+    {
+        "id": "11",
+        "name":"Bphone 3",
+        "price":350,
+        "img":"https://clickbuy.com.vn/uploads/2019/04/bphone-3-pro-den.png",
+        "desc":"Smartphone tầm trung Made in Vietnam",
+        "status":false
+    },
+    {
+        "id": "12",
+        "name":"Iphone SE 2020",
+        "price":400,
+        "img":"https://cdn.tgdd.vn/Products/Images/42/149456/iphone-se-2020-2.jpg",
+        "desc":"Smartphone cận cao cấp Made by Apple",
+        "status":true
+    },
+    {
+        "id": "13",
+        "name":"Bphone 3 Pro",
+        "price":450,
+        "img":"https://clickbuy.com.vn/uploads/2019/04/bphone-3-pro-den.png",
+        "desc":"Smartphone cận cao cấp Made in Vietnam",
+        "status":false
+    },
+    {
+        "id": "14",
+        "name":"Xiaomi Redmi Note 10",
+        "price":470,
+        "img":"https://cdn.fptshop.com.vn/Uploads/Originals/2019/11/8/637088187039672366_xiaomi-mi-note-10-1.png",
+        "desc":"Smartphone cận cao cấp Made by Xiaomi",
+        "status":false
+    },
+    {
+        "id": "15",
+        "name":"Samsung Galaxy Note 10 Lite ",
+        "price":500,
+        "img":"https://cdn.fptshop.com.vn/Uploads/Originals/2020/1/17/637148516615700174_SS-note10-lite-den-1.png",
+        "desc":"Smartphone cận cao cấp Made by Samsung",
+        "status":false
+    },
+    {
+        "id": "16",
+        "name":"Iphone XR",
+        "price":550,
+        "img":"https://cdn.tgdd.vn/Products/Images/42/190325/iphone-xr-white-600x600.jpg",
+        "desc":"Smartphone cao cấp Made by Apple",
+        "status":true
+    },
+    {
+        "id": "17",
+        "name":"Samsung Galaxy S10 Lite",
+        "price":599,
+        "img":"https://cdn.tgdd.vn/Products/Images/42/194251/samsung-galaxy-s10-lite-blue-thumb-600x600.jpg",
+        "desc":"Smartphone cao cấp Made by Samsung",
+        "status":true
+    },
+    {
+        "id": "18",
+        "name":"Samsung Note 10",
+        "price":630,
+        "img":"https://didongviet.vn/pub/media/catalog/product//s/a/samsung-galaxy-note-10-plus-like-new.jpg",
+        "desc":"Smartphone cao cấp Made by Samsung",
+        "status":false
+    },
+    {
+        "id": "19",
+        "name":"Samsung Galaxy S20",
+        "price":700,
+        "img":"https://cdn.tgdd.vn/Products/Images/42/217937/samsung-galaxy-s20-ultra-600x600-1-600x600.jpg",
+        "desc":"Smartphone cao cấp Made by Samsung",
+        "status":false
+    },
+    {
+        "id": "20",
+        "name":"Huawei Mate 30 Pro",
+        "price":750,
+        "img":"https://cdn.fptshop.com.vn/Uploads/Originals/2020/2/10/637169424587672231_huawei-mate-30-pro-1.png",
+        "desc":"Smartphone cao cấp Made by Huawei",
+        "status":false
+    },
+    {
+        "id": "21",
+        "name":"Samsung Galaxy S20 Ultra",
+        "price":800,
+        "img":"https://cdn.tgdd.vn/Products/Images/42/217937/samsung-galaxy-s20-ultra-600x600-1-600x600.jpg",
+        "desc":"Smartphone cao cấp Made by Samsung",
+        "status":false
+    },
+    {
+        "id": "22",
+        "name":"Iphone 11 Pro",
+        "price":899,
+        "img":"https://cdn.fptshop.com.vn/Uploads/Originals/2019/9/11/637037672778988772_11-pro-xanh.png",
+        "desc":"Smartphone cao cấp Made by Apple",
+        "status":false
+    },
+    {
+        "id": "22",
+        "name":"Iphone 11 Pro Max",
+        "price":999,
+        "img":"https://cdn.tgdd.vn/Products/Images/42/210654/iphone-11-pro-max-512gb-gold-600x600.jpg",
+        "desc":"Smartphone cao cấp Made by Apple",
+        "status":true
+    }
+    
+]

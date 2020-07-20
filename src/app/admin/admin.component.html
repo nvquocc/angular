@@ -1,0 +1,215 @@
+
+<div class="admin-layout">
+  <section>
+    <!-- sidebar menu start -->
+    <div class="sidebar-menu sticky-sidebar-menu">
+
+      <!-- logo start -->
+      <div class="logo">
+        <h1><a routerLink="/admin/dashboard">Collective</a></h1>
+      </div>
+
+      <div class="logo-icon text-center">
+        <a routerLink="/admin/dashboard" title="logo"><img src="assets/images/logo.png" alt="logo-icon"> </a>
+      </div>
+      <!-- //logo end -->
+
+      <div class="sidebar-menu-inner">
+
+        <!-- sidebar nav start -->
+        <ul class="nav nav-pills nav-stacked custom-nav">
+          <li class="active"><a routerLink="/admin/dashboard"><i class="fas fa-tachometer-alt"></i><span> Dashboard</span></a>
+          </li>           
+          <li><a routerLink="/admin/shop"><i class="fa fa-file-text"></i> <span>Product Manager</span></a></li>
+          <li><a routerLink="/admin/shop/add"><i class="fa fa-file-text"></i> <span>Add Product</span></a></li>
+        </ul>
+      
+      </div>
+    </div>
+    <!-- //sidebar menu end -->
+    <!-- header-starts -->
+    <div class="header sticky-header">
+
+      <!-- notification menu start -->
+      <div class="menu-right">
+        <div class="navbar user-panel-top">
+          <div class="search-box">
+            <form action="#search-results.html" method="get">
+              <input class="search-input" placeholder="Search Here..." type="search" id="search">
+              <button class="search-submit" value=""><span class="fa fa-search"></span></button>
+            </form>
+          </div>
+          <div class="user-dropdown-details d-flex">
+            <div class="profile_details_left">
+              <ul class="nofitications-dropdown">
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i
+                    class="fas fa-bell"></i><span class="badge blue">3</span></a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <div class="notification_header">
+                        <h3>You have 3 new notifications</h3>
+                      </div>
+                    </li>
+                    <li><a href="#" class="grid">
+                      <div class="user_img"><img src="assets/images/avatar1.jpg" alt=""></div>
+                      <div class="notification_desc">
+                        <p>Johnson purchased template</p>
+                        <span>Just Now</span>
+                      </div>
+                    </a></li>
+                    <li class="odd"><a href="#" class="grid">
+                      <div class="user_img"><img src="assets/images/avatar2.jpg" alt=""></div>
+                      <div class="notification_desc">
+                        <p>New customer registered </p>
+                        <span>1 hour ago</span>
+                      </div>
+                    </a></li>
+                    <li><a href="#" class="grid">
+                      <div class="user_img"><img src="assets/images/avatar3.jpg" alt=""></div>
+                      <div class="notification_desc">
+                        <p>Lorem ipsum dolor sit amet </p>
+                        <span>2 hours ago</span>
+                      </div>
+                    </a></li>
+                    <li>
+                      <div class="notification_bottom">
+                        <a href="#" class="bg-primary">See all notifications</a>
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i
+                    class="fas fa-comments"></i><span class="badge blue">4</span></a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <div class="notification_header">
+                        <h3>You have 4 new messages</h3>
+                      </div>
+                    </li>
+                    <li><a href="#" class="grid">
+                      <div class="user_img"><img src="assets/images/avatar1.jpg" alt=""></div>
+                      <div class="notification_desc">
+                        <p>Johnson purchased template</p>
+                        <span>Just Now</span>
+                      </div>
+                    </a></li>
+                    <li class="odd"><a href="#" class="grid">
+                      <div class="user_img"><img src="assets/images/avatar2.jpg" alt=""></div>
+                      <div class="notification_desc">
+                        <p>New customer registered </p>
+                        <span>1 hour ago</span>
+                      </div>
+                    </a></li>
+                    <li><a href="#" class="grid">
+                      <div class="user_img"><img src="assets/images/avatar3.jpg" alt=""></div>
+                      <div class="notification_desc">
+                        <p>Lorem ipsum dolor sit amet </p>
+                        <span>2 hours ago</span>
+                      </div>
+                    </a></li>
+                    <li><a href="#" class="grid">
+                      <div class="user_img"><img src="assets/images/avatar1.jpg" alt=""></div>
+                      <div class="notification_desc">
+                        <p>Johnson purchased template</p>
+                        <span>Just Now</span>
+                      </div>
+                    </a></li>
+                    <li>
+                      <div class="notification_bottom">
+                        <a href="#" class="bg-primary">See all messages</a>
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="profile_details">
+              <ul>
+                <li class="dropdown profile_details_drop">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="dropdownMenu3" aria-haspopup="true"
+                     aria-expanded="false">
+                    <div class="profile_img">
+                      <img src="assets/images/profileimg.jpg" class="rounded-circle" alt="" />
+                      <div class="user-active">
+                        <span></span>
+                      </div>
+                    </div>
+                  </a>
+                  <ul class="dropdown-menu drp-mnu" aria-labelledby="dropdownMenu3">
+                    <li class="user-info">
+                      <h5 class="user-name">John Deo</h5>
+                      <span class="status ml-2">Available</span>
+                    </li>
+                    <li> <a href="#"><i class="fas fa-user"></i>My Profile</a> </li>
+                    <li> <a href="#"><i class="fas fa-users"></i>1k Followers</a> </li>
+                    <li> <a href="#"><i class="fas fa-cog"></i>Setting</a> </li>
+                    <li> <a href="#"><i class="fas fa-heart"></i>100 Likes</a> </li>
+                    <li class="logout"> <a href="#"><i class="fas fa-power-off"></i> Logout</a> </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-content">
+
+      <!-- content -->
+      <div class="container-fluid content-top-gap">
+        <router-outlet></router-outlet>
+      </div>
+      <!-- //content -->
+    </div>
+    <!-- main content end-->
+  </section>
+  <!--footer section start-->
+  
+</div>
+<footer class="site-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-5">
+        <h6>About</h6>
+        <p class="text-justify">This is a simple website</p>
+      </div>
+
+      <div class="col-xs-6 col-md-3">
+        <h6>Categories</h6>
+        <ul class="footer-links">
+          <li><a routerLink="/home">Home</a></li>
+          <li><a routerLink="/admin/shop">Product Manager</a></li>
+          <li><a routerLink="/admin/shop/add">Add Product</a></li>
+          
+        </ul>
+      </div>
+
+      <div class="col-xs-6 col-md-3">
+        <h6>Contact Info</h6>
+        <p class="text-justify">
+            Phone : 0123456789
+        </p>
+        <p class="text-justify">Email : <a href="mailto:quocnvph08789@fpt.edu.vn">quocnvph08789@fpt.edu.vn</a></p>
+          <p class="text-justify">Address: Khu đơn nguyên 5, kí túc xá Mỹ Đình 2, Nam Từ Liêm, Hà Nội</p>
+      </div>
+    </div>
+    <hr>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-sm-6 col-xs-12">
+        <p class="copyright-text">Edit by quocnvph08789</div>
+
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <ul class="social-icons">
+          <li><a class="facebook" href="#"><i class="fab fa-facebook"></i></a></li>
+          <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a class="linkedin" href="#"><i class="fab fa-linkedin"></i></a></li>   
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>

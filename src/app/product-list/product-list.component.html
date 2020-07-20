@@ -1,0 +1,166 @@
+<div class="front-end-layout">
+  <div class="main-sec inner-page">
+    <header class="py-sm-3 pt-3 pb-2" id="home">
+      <div class="container">
+        <div class="top-w3pvt d-flex">
+          <div id="logo">
+            <h1> <a routerLink="/home"><span class="log-w3pvt">B</span>aggage</a> <label class="sub-des">Online
+                Store</label></h1>
+          </div>
+        </div>
+        <div class="nav-top-wthree">
+          <nav>
+            <label for="drop" class="toggle"><span class="fa fa-bars"></span></label>
+            <input type="checkbox" id="drop" />
+            <ul class="menu">
+              <li><a routerLink="/home">Home</a></li>
+              <li><a routerLink="/manager">Product Manager</a></li>
+              <li><a routerLink="/about">About Us</a></li>
+
+              <li class="active"><a routerLink="/contact">Contact</a></li>
+            </ul>
+          </nav>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </header>
+
+  </div>
+  <div class="jumbotron">
+  <div class="container" style="margin-bottom: 3rem;">
+    <h3 style="text-align: center; margin-bottom: 2rem;padding-top: 2rem;">PRODUCT LIST</h3>
+    <div class="row">
+      <div class="col-bg-6" *ngFor="let product of products">
+        <div class="card">
+          <div class="card-body" style="margin-top: 1rem;">
+            <a><img class="card-img-top" src="{{product.img}}" style="width: 500px; height: 500px;"></a>
+            <p class="card-text" style="text-align:justify">Product Name : {{product.name}}</p>
+            <p class="card-text" style="text-align:justify">Price : ${{product.price}}</p>
+            <p class="card-text" style="text-align:justify">Description : {{product.desc}}</p>
+            <p class="card-text" style="text-align:justify"> Status: {{product.status? 'Còn hàng':'Hết hàng'}}</p>
+            <div class="button-group" style="margin-top: 1.5rem; border-radius: 1rem;">
+              <button type="button" class="btn btn-primary btn-sm" style="margin-right: 1rem;"
+                routerLink="/product/{{product.id}}">Chi tiết</button>
+
+              <button class="btn btn-info btn-sm " style="margin-right: 1rem;"
+                routerLink="/product/edit/{{product.id}}">Update</button>
+              <button class="btn btn-danger btn-sm" style="margin-right: 1rem;"
+                (click)="removeItem(product.id)">Delete</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <section class="banner-bottom py-5" >
+    <div class="container py-md-3">
+      <div class="row grids-wthree-info text-center" style="margin-bottom: 10rem;">
+        <div class="col-lg-4 ab-content">
+          <div class="ab-info-con">
+            <h4>Fast & Free Delivery</h4>
+            <p>Lorem ipsum dolor sit,Nulla pellentesque dolor ipsum laoreet eleifend integer,Pellentesque maximus
+              libero.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 ab-content">
+          <div class="ab-info-con">
+            <h4>Safe & Secure Payments</h4>
+            <p>Lorem ipsum dolor sit,Nulla pellentesque dolor ipsum laoreet eleifend integer,Pellentesque maximus
+              libero.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 ab-content">
+          <div class="ab-info-con">
+            <h4>100% Money Back Guarantee</h4>
+            <p>Lorem ipsum dolor sit,Nulla pellentesque dolor ipsum laoreet eleifend integer,Pellentesque maximus
+              libero.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="shipping-wthree">
+    <div class="shiopping-grids d-lg-flex">
+      <div class="col-lg-4 shiopping-w3pvt-gd text-center">
+        <div class="icon-gd"><span class="fa fa-truck" aria-hidden="true"></span>
+        </div>
+        <div class="icon-gd-info">
+          <h3>FREE SHIPPING</h3>
+          <p>On all order over $2000</p>
+        </div>
+      </div>
+      <div class="col-lg-4 shiopping-w3pvt-gd sec text-center">
+        <div class="icon-gd"><span class="fa fa-bullhorn" aria-hidden="true"></span></div>
+        <div class="icon-gd-info">
+          <h3>FREE RETURN</h3>
+          <p>On 1st exchange in 30 days</p>
+        </div>
+      </div>
+      <div class="col-lg-4 shiopping-w3pvt-gd text-center">
+        <div class="icon-gd"> <span class="fa fa-gift" aria-hidden="true"></span></div>
+        <div class="icon-gd-info">
+          <h3>MEMBER DISCOUNT</h3>
+          <p>Register &amp; save up to $29%</p>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+  <footer class="site-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-5">
+                <h6>About</h6>
+                <p class="text-justify">This is a simple website</p>
+            </div>
+
+            <div class="col-xs-6 col-md-3">
+                <h6>Categories</h6>
+                <ul class="footer-links">
+                    <li><a routerLink="/home">Home</a></li>
+                    <li><a routerLink="/manager">Product Manager</a></li>
+                    <li><a routerLink="/about">About Us</a></li>
+
+                    <li><a routerLink="/contact">Contact</a></li>
+
+                </ul>
+            </div>
+
+            <div class="col-xs-6 col-md-3">
+                <h6>Contact Info</h6>
+                <p class="text-justify">
+                    Phone : 0123456789
+                </p>
+                <p class="text-justify">Email : <a
+                        href="mailto:quocnvph08789@fpt.edu.vn">quocnvph08789@fpt.edu.vn</a></p>
+                <p class="text-justify">Address: Khu đơn nguyên 5, kí túc xá Mỹ Đình 2, Nam Từ Liêm, Hà Nội</p>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+                <p class="copyright-text">Edit by quocnvph08789
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <ul class="social-icons">
+                    <li><a class="facebook" href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a class="linkedin" href="#"><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+</div>

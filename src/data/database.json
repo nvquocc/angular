@@ -1,0 +1,166 @@
+[
+    {
+        "id": "1",
+        "name":"Vsmart Bee 1 ",
+        "price":35,
+        "desc":"Smartphone phổ thông - Made in Vietnam",
+        "status":true
+    },
+   
+    {
+        "id": "2",
+        "name":"Nokia C1",
+        "price":50,
+        "desc":"Smartphone phổ thông Made by Nokia",
+        "status":false
+    },
+    {
+        "id": "3",
+        "name":"Xiaomi Redmi 7A",
+        "price":80,
+        "desc":"Smartphone giá rẻ Made in China",
+        "status":false
+    },
+    {
+        "id": "4",
+        "name":"Vsmart Joy 2+",
+        "price":110,
+        "desc":"Smartphone giá rẻ - Made in Vietnam",
+        "status":false
+    },
+    
+    {
+        "id": "5",
+        "name":"Realme C3i",
+        "price":130,
+        "desc":"Smartphone giá rẻ Made in China",
+        "status":true
+    },
+    {
+        "id": "6",
+        "name":"Xiaomi Redmi Note 7",
+        "price":160,
+        "desc":"Smartphone tầm trung Made in China",
+        "status":false
+    },
+    {
+        "id": "7",
+        "name":"Samsung Galaxy A21",
+        "price":200,
+        "desc":"Smartphone tầm trung Made by Samsung",
+        "status":true
+    },
+    {
+        "id": "8",
+        "name":"Samsung Galaxy M22",
+        "price":220,
+        "desc":"Smartphone tầm trung Made by Samsung",
+        "status":false
+    },
+    {
+        "id": "9",
+        "name":"Samsung Galaxy A70 ",
+        "price":250,
+        "desc":"Smartphone tầm trung Made by Samsung",
+        "status":true
+    },
+    {
+        "id": "10",
+        "name":"Realme 6",
+        "price":300,
+        "desc":"Smartphone tầm trung Made in China",
+        "status":false
+    },
+    {
+        "id": "11",
+        "name":"Bphone 3 Pro",
+        "price":350,
+        "desc":"Smartphone tầm trung Made in Vietnam",
+        "status":false
+    },
+    {
+        "id": "12",
+        "name":"Iphone SE 2020",
+        "price":400,
+        "desc":"Smartphone cận cao cấp Made by Apple",
+        "status":true
+    },
+    {
+        "id": "13",
+        "name":"Bphone 3 Pro",
+        "price":450,
+        "desc":"Smartphone cận cao cấp Made in Vietnam",
+        "status":false
+    },
+    {
+        "id": "14",
+        "name":"Xiaomi Redmi Note 10",
+        "price":470,
+        "desc":"Smartphone cận cao cấp Made by Xiaomi",
+        "status":false
+    },
+    {
+        "id": "15",
+        "name":"Samsung Galaxy Note 10 Lite ",
+        "price":500,
+        "desc":"Smartphone cận cao cấp Made by Samsung",
+        "status":false
+    },
+    {
+        "id": "16",
+        "name":"Iphone XR",
+        "price":550,
+        "desc":"Smartphone cao cấp Made by Apple",
+        "status":true
+    },
+    {
+        "id": "17",
+        "name":"Samsung Galaxy S10 Lite",
+        "price":599,
+        "desc":"Smartphone cao cấp Made by Samsung",
+        "status":true
+    },
+    {
+        "id": "18",
+        "name":"Samsung Note 10",
+        "price":630,
+        "desc":"Smartphone cao cấp Made by Samsung",
+        "status":false
+    },
+    {
+        "id": "19",
+        "name":"Samsung Galaxy S20",
+        "price":700,
+        "desc":"Smartphone cao cấp Made by Samsung",
+        "status":false
+    },
+    {
+        "id": "20",
+        "name":"Huawei Mate 30 Pro",
+        "price":750,
+        "desc":"Smartphone cao cấp Made by Huawei",
+        "status":false
+    },
+    {
+        "id": "21",
+        "name":"Samsung Galaxy S20 Ultra",
+        "price":800,
+        "desc":"Smartphone cao cấp Made by Samsung",
+        "status":false
+    },
+    {
+        "id": "22",
+        "name":"Iphone 11 Pro",
+        "price":899,
+        "desc":"Smartphone cao cấp Made by Apple",
+        "status":false
+    },
+    {
+        "id": "22",
+        "name":"Iphone 11 Pro Max",
+        "price":999,
+        "desc":"Smartphone cao cấp Made by Apple",
+        "status":true
+    }
+    
+]

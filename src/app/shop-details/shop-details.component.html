@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card" >
+                <div class="card-body">
+                    <h5 style="text-align: center; margin-bottom: 2rem;padding-top: 2rem;">Danh sách sản phẩm</h5>
+                    <a ><img class="card-img-top" src="{{shop.img}}" alt=""></a>
+                    <p class="card-text">
+                        Product Name: {{shop.name}}
+                    </p>
+                    <p class="card-text">
+
+                       Price: ${{shop.price}}
+                    </p>
+                    <p class="card-text">
+                        Description: {{shop.desc}}
+                    </p>
+                    <p class="card-text">
+                        Status: {{shop.status? 'Còn hàng':'Hết hàng'}}
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
